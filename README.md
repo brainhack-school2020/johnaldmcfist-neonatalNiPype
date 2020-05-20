@@ -18,13 +18,10 @@ To integrate the lessons learned in week 1 of Brainhack School whice still contr
 Neonatal background tools that don't work and those that do
 
 
-
 ### Tools 
 
 #### NiPype
-!(nipype-banner-bg.png)
-
-
+![NiPype](nipype-banner-bg.png)
 
 
 ### Data 
