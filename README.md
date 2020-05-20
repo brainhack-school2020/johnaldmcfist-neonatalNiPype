@@ -20,8 +20,8 @@ Neonatal background tools that don't work and those that do
 
 ### Tools 
 
-#### NiPype
 ![NiPype](nipype-banner-bg.png)
+#### NiPype 
 
 
 ### Data 
