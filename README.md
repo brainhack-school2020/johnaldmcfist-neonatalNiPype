@@ -15,7 +15,7 @@ To integrate the lessons learned in week 1 of Brainhack School whice still contr
 
 ### Background
 
-Neonatal background tools that don't work and those that do
+Neonatal MRI data isn't easily processed with standard neuroimaging tools. Typical operations such as brain extraction using FSL's BET do not typically work and must be individually tailored to each participant. This results in time confuming workflows and limited analytical possibilities. Registration between participants isn't possible with conventional tools as well and the literature suggests using group specific brain atlases and more advanced registration algorithms employing segmentation techniques. As such, working with this data requires a "testing" environment in which different tools can be tested with different parameters.
 
 
 ### Tools 
@@ -29,7 +29,8 @@ Neonatal background tools that don't work and those that do
 
 
 ### Deliverables
-
+Docker container with tools necessary to conduct standard dMRI preprocessing using FSL and DiPy. The processing itself will be written in a Jupyter Notebook and different preprocessing techniques from each software will be tested on my data and controlled for quality.
+I want to challenge myself and try different FreeSurfer tools with my data. I'd like to attempt Freesurfer's surface based brain extraction, segmentation and registration tools.
 
 
 ## Results 
@@ -39,7 +40,12 @@ Neonatal background tools that don't work and those that do
 
 
 ### Tools I learned during this project
-
+NiPype
+Docker/Neurodocker
+GitHub
+Jupyter Notebook
+Python
+BIDS
 
  
 ### Results 
