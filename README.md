@@ -30,20 +30,14 @@ I want to create a pipeline visualization that is more interactive.
 
 ### Tools I learned during this project
 
-NiPype
+- NiPype
+- Docker/Neurodocker
+- GitHub
+- Jupyter Notebook
+- Python
+- BIDS
 
-Docker/Neurodocker
-
-GitHub
-
-Jupyter Notebook
-
-Python
-
-BIDS
-
-
-And the WSL integration of all of the above! (this is perhaps my most impressive feat)
+- ... and the WSL integration of all of the above! (this is perhaps my most impressive feat)
 ### Results 
 
 #### Deliverable 1: NiPype Workflow for my data
@@ -59,5 +53,13 @@ I have written a first iteration of my NiPype workflow in a Jupyter notebook. Th
 In working on my visualization for week 2 of BrainhackSchool, I was able to create a small code block that can turn a .dot file produced by NiPype (currently the basic hierarchical graph) into an interactive plotly Sankey diagram.
  
 
-## Conclusion and acknowledgement
+## Moving Forward
+I am going to continue using NiPype and try to find subject-specific pipelines to produce brain images that can be registered together for group analysis. The main challenge in accomplishing this is the time it takes to QC every step for every session. To make this process easier, I will add functionality to my Plotly Sankey diagram, perhaps using Plotly.Dash to show more information about given nodes. For example: Show both input and output volumes for a given subject at a given analysis step with QC stats such as SNR.
 
+## Conclusion and acknowledgement
+BrainhackSchool 2020 was an increadible opportunity for me to get down in the mud and get my hands dirty with tools I have been trying to learn on my own for a few months. I feel the past month has jumpstarted my PhD and I will be able to produce much better science from now on.
+
+I'd like to thank the organisers of the BrainhackSchool as well as personally thank the instructors who helped me work on my projects:
+- Noor 
+- Greg
+- Benjamin
