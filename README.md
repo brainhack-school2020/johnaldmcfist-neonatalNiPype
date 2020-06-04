@@ -2,7 +2,6 @@
 
 # Daniel's Brainhack School Project
 
-Team contributors: noor and michelle and tajwar and ziad and erjun
 
 ![BrainHack School](bhs2020.png)
 
@@ -30,13 +29,21 @@ Docker container with tools necessary to conduct standard dMRI preprocessing usi
 I want to create a pipeline visualization that is more interactive.
 
 ### Tools I learned during this project
+
 NiPype
+
 Docker/Neurodocker
+
 GitHub
+
 Jupyter Notebook
+
 Python
+
 BIDS
 
+
+And the WSL integration of all of the above! (this is perhaps my most impressive feat)
 ### Results 
 
 #### Deliverable 1: NiPype Workflow for my data
@@ -44,17 +51,13 @@ I have written a first iteration of my NiPype workflow in a Jupyter notebook. Th
 - The BIDS framework may be very useful, but it requires a lot of setup to properly work on messy clinical data. In small samples, it can be easier to manually create the folder rather than using HeuDiConv.
 - Speaking of HeuDiConv, it cannot read the Enhanced Dicom format provided by Philips. This is a known issue. Enhanced Dicom format is mainly used to export MRS data and other maps derived from the data. To convert from Enhanced to Classic Dicom, one needs to use the Philips MRI console (with technician).
 - Within NiPype, certain interfaces may have their own little Nitpicks. For example, the BIDSDataGrabber interface, which serves to "grab" participant data and provide it to specific nodes, produces an obligatory list output which cannot be read by nodes which require a path as an input. My solution was to use another interface instead, which doesn't use the BIDS framework at all.
--The Nipype fsl.EddyCorrect interface may be deprecated (coded in python2) and causing errors. I will open a Github issue regarding this.
--NiPyPe doesn't have all DiPy tools integrated as interfaces because DiPy is entirely python based. Instead NiPype offers a DiPy base interface which can be customized to our needs. I am currently investigating this to correct my workflow.
+- The Nipype fsl.EddyCorrect interface may be deprecated (coded in python2) and causing errors. I will open a Github issue regarding this.
+- NiPyPe doesn't have all DiPy tools integrated as interfaces because DiPy is entirely python based. Instead NiPype offers a DiPy base interface which can be customized to our needs. I am currently investigating this to correct my workflow.
  
 
 #### Deliverable 2: NiPype Workflow Sankey Visualization
 In working on my visualization for week 2 of BrainhackSchool, I was able to create a small code block that can turn a .dot file produced by NiPype (currently the basic hierarchical graph) into an interactive plotly Sankey diagram.
+ 
 
- 
-##### Other projects
-
- 
- 
 ## Conclusion and acknowledgement
 
