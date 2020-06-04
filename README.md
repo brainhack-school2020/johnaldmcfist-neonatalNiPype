@@ -63,3 +63,5 @@ I'd like to thank the organisers of the BrainhackSchool as well as personally th
 - Noor 
 - Greg
 - Benjamin
+
+And my new friend Michele who has been a great coding partner throughout the past month!
